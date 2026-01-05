@@ -1206,3 +1206,34 @@ h1, h2, h3, h4, h5,
   border-color: #2FE3C4;
   box-shadow: 0 25px 55px rgba(47, 227, 196, 0.35);
 }
+
+.text-neon {
+  color: #2fe3c4 !important; /* same teal as buttons */
+  text-shadow: 0 0 12px rgba(47, 227, 196, 0.6);
+}
+.text-neon-soft {
+  color: rgba(47, 227, 196, 0.85);
+}
+.team-vs {
+  border-radius: 16px;
+  border: 1px solid rgba(47, 227, 196, 0.35);
+  box-shadow: 0 20px 45px rgba(47, 227, 196, 0.25);
+  transition: all 0.3s ease;
+}
+
+.team-vs:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(47, 227, 196, 0.4);
+}
+
+.about-content h2 {
+  margin-bottom: 1.5rem; /* Space below header */
+}
+
+.about-content p {
+  margin-bottom: 1rem; /* Space between paragraphs */
+}
+
+.section-gap {
+  margin-top: 4rem; /* Space between sections */
+}
