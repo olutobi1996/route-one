@@ -1292,3 +1292,30 @@ h1, h2, h3, h4, h5,
     width: 80px;  /* smaller on phones */
   }
 }
+
+/* Referral dropdown – brand styling */
+.contact-form-wrapper select.form-control {
+  background-color: var(--brand-navy) !important;
+  color: var(--brand-white) !important;
+  border: 2px solid var(--brand-teal) !important;
+  border-radius: 6px !important;
+  padding: 0.5rem 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Placeholder / disabled option */
+.contact-form-wrapper select.form-control option:disabled {
+  color: var(--brand-grey);
+}
+
+/* Hover / focus state */
+.contact-form-wrapper select.form-control:focus {
+  border-color: var(--brand-teal-dark);
+  box-shadow: 0 0 0 0.15rem rgba(47, 227, 196, 0.35);
+  background-color: var(--brand-navy);
+  color: var(--brand-white);
+}
+
+
